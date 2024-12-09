@@ -1,9 +1,9 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Header from './components/header/Header';
-import Home from './pages/home/home';
+import Home from './pages/homePage/home';
 import MovieList from './components/movieList/movieList';
-import Movie from './pages/movieDetail/movie';
+import Movie from './pages/moviePage/movie';
 
 function App() {
   return (
